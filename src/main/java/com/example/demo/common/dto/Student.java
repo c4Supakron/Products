@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.example.demo.common.dto;
 
 public class Student {
     private String studentid;

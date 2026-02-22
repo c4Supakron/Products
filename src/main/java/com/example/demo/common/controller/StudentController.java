@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.demo.common.controller;
 
-import com.example.demo.dto.Student;
-import com.example.demo.dto.StudentRes;
-import com.example.demo.service.StudentService;
+import com.example.demo.common.dto.Student;
+import com.example.demo.common.dto.StudentRes;
+import com.example.demo.common.service.StudentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

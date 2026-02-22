@@ -1,10 +1,10 @@
-package com.example.demo.service;
+package com.example.demo.common.service;
 
 
-import com.example.demo.dto.Student;
-import com.example.demo.dto.StudentRes;
-import com.example.demo.entity.StudentEntity;
-import com.example.demo.repository.StudentRepository;
+import com.example.demo.common.dto.Student;
+import com.example.demo.common.dto.StudentRes;
+import com.example.demo.common.entity.StudentEntity;
+import com.example.demo.common.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 

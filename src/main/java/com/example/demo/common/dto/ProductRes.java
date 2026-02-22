@@ -1,6 +1,7 @@
-package com.example.demo.dto;
+package com.example.demo.common.dto;
 
-public class Product {
+public class ProductRes {
+
     private String product_code;
     private String product_name;
     private Integer category_id;

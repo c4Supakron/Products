@@ -1,9 +1,4 @@
-package com.example.demo.dto;
-
-import com.example.demo.entity.StudentEntity;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.example.demo.common.dto;
 
 public class StudentRes {
 

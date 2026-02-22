@@ -1,7 +1,5 @@
-package com.example.demo.entity;
+package com.example.demo.common.entity;
 
-import com.example.demo.repository.StudentRepository;
-import com.example.demo.service.StudentService;
 import jakarta.persistence.*;
 
 @Entity
