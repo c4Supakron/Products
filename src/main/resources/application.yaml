@@ -1,15 +1,17 @@
 spring:
-  application:
-    name: demo
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
-    username: appusr
-    password: P@ssw0rd
+    # 1. เปลี่ยน IP กลับมาเป็น localhost (เพื่อให้วิ่งเข้าท่อ DBeaver)
+    url: jdbc:postgresql://10.202.10.35:5432/bootcamp_db
+    username: dev_c4
+    # 2. ต้องใส่ " " ครอบตัวเลขเสมอ ไม่งั้น YAML จะมองเป็นตัวเลขไม่ใช่ข้อความ
+    password: "1234"
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
-      ddl-auto: update # <--- เปลี่ยนตรงนี้เป็น update
+      ddl-auto: none
     show-sql: true
     properties:
       hibernate:
-        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  server:
+    port: 8080
